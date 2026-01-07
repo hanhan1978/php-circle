@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    container_name: php-web
+    ports:
+      - "80:80"
+    volumes:
+      - ./html:/var/www/html
+    restart: unless-stopped
