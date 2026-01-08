@@ -1,0 +1,9 @@
+services:
+  console:
+    image: php:8.3-cli
+    container_name: php-console
+    volumes:
+      - ./src:/app
+    working_dir: /app
+    tty: true
+    stdin_open: true
