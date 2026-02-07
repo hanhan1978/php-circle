@@ -1,0 +1,5 @@
+{
+    "require": {
+        "php-tui/php-tui": "^0.2"
+    }
+}
