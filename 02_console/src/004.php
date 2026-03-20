@@ -15,10 +15,10 @@ $display = DisplayBuilder::default()
 
 // 文字は縦長なので、boundsで補正
 $display->draw(
-    CanvasWidget::fromIntBounds(0, 88, 0, 44)
+    CanvasWidget::fromIntBounds(0, 160, 0, 33)
         ->marker(Marker::Dot)
         ->draw(
-            CircleShape::fromScalars(44, 22, 20)
+            CircleShape::fromScalars(10, 22, 10)
                 ->color(AnsiColor::Blue)
         )
 );
