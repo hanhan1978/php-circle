@@ -1,5 +1,18 @@
 {
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/symfony-src/src/Symfony/Component/Tui",
+            "options": {
+                "symlink": false
+            }
+        }
+    ],
     "require": {
-        "php-tui/php-tui": "^0.2"
-    }
+        "php": ">=8.4",
+        "php-tui/php-tui": "^0.2",
+        "symfony/tui": "*@dev"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
